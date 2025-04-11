@@ -1,0 +1,13 @@
+.level-1 {
+    border: 1px solid black;
+  }
+  
+  .level-2 {
+    border: 1px solid red;
+  }
+  
+  .arrow::after {
+    content: '→';
+    margin-left: 5px;
+  }
+  

@@ -1,0 +1,5 @@
+<div *ngFor="let trip of trips; let i = index">
+  <div [ngClass]="getTripClass(i)">
+    {{ trip.start.substring(0, 3) }} - {{ trip.end.substring(0, 3) }}
+  </div>
+</div>
